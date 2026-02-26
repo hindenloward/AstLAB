@@ -16,7 +16,7 @@ def dag_uno():
         print(var)
     @task
     def third_wt():
-        var = 3
+        var = 6
         print(var)
     @task
     def fourth_wt():
