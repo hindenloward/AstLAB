@@ -1,7 +1,7 @@
 from airflow.decorators import dag, task
 from datetime import datetime
 
-@dag(start_date=datetime(2026, 2, 21),
+@dag(start_date=datetime(2026, 2, 25),
     schedule="@hourly", tags=['LAB']
 )
 
